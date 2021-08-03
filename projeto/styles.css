@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	min-height: 100vh;
+	padding: 20px;
+	justify-content: flex-start;
+}
+
+#list-posts,
+#create-posts,
+#myForm {
+	display: flex;
+	flex-direction: column;
+}
+
+#myForm {
+	gap: 10px;
+}
+
+#myForm input,
+#myForm textarea,
+#myForm button {
+	width: 100%;
+}
+
+.post-wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 15px;
+}
+
+.post-wrapper h2 {
+	margin: 0;
+}
+
+.post-body {
+	margin: 0;
+}
+
+.hidden {
+	display: none !important;
+}
